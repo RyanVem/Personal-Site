@@ -3,7 +3,8 @@
 
 .header{
 height: 100px;
-padding-left: 15px;
+padding-left: 25vw;
+padding-right: 25vw;
 padding-top: 15px;
 padding-bottom: 15px;
 background-color: white;
@@ -13,26 +14,31 @@ border: 5px solid black;
 .logo{
 height: 100px;
 float:left;
-margin-left: 24%;
-padding-right: 75px;
+width: 300px;
+padding-right: 5.1%;
 border-right: 5px solid black;
 }
 
 .nav{
 float:left;
-width: 50%;
-margin-top:10px;
-margin-left: 25px;
-font-size:25px;
+width: 51%;
+margin-left: 5%;
+margin-top: 33px;
+font-size: 130%;
 text-decoration:none;
+
 }
 
 ul{
+padding-inline-start: 0px;
+display:inline;
+margin-block-end: 0em;
+margin-block-start: 0em;
 }
 
 a{
 text-decoration:none;
-margin-left: 5px;
+margin-left: 1%;
 }
 
 /* unvisited link */
@@ -53,4 +59,35 @@ a:hover {
 /* selected link */
 a:active {
   color: grey;
+}
+
+@media only screen and (max-width: 1440px) {
+  .header{
+  padding-left: 20vw;
+  padding-right: 20vw;
+  }
+}
+
+@media only screen and (max-width: 1080px)  {
+  .header{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  }
+}
+
+@media only screen and (max-width: 768px)  {
+  .header{
+  padding-left: 18vw;
+  padding-right: 18vw;
+  }
+  .nav{
+  display:none;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .header{
+  padding-left: 14vw;
+  padding-right: 14vw;
+  }
 }
