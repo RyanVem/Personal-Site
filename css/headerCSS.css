@@ -34,7 +34,7 @@ margin-right: 3%;
 }
 
 .nav{
-width: 490px;
+width: 482px;
 font-size: 25px;
 float:left;
 }
@@ -72,7 +72,20 @@ a:active {
 
 
 @media only screen and (max-width: 975px) {
-  .nav{
-  display:none;
+  .logo{
+  width: 290px;
+  height: 95px;
+  margin-top:5px;
   }
+  
+  #logo{
+  width: 290px;
+  }
+  
+  .nav{
+  font-size: 16px;
+  width: 309px;
+  }
+  
+  
 }
