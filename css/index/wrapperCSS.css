@@ -3,52 +3,59 @@
 
 .wrapper{
 width: 100%;
-height: 700px;
-padding-top: 100px;
+height: 2175px;
+padding-top: 112px;
 background-color: black;
 }
 
 #section1{
 background-color: #FFFCF5;
-height: 650px;
-width: auto;
+height: auto;
+width: 90%;
 margin-left: 5%;
 margin-right: 5%;
+margin-bottom: 100px;
 float:left;
 }
 
 #section2{
 background-color: #FFFCF5;
-height: 650px;
-width: auto;
+height: auto;
+width: 90%;
 margin-left: 5%;
 margin-right: 5%;
+margin-bottom: 100px;
 float: left;
 }
 
 #section3{
 background-color: #FFFCF5;
-height: 650px;
-width: auto;
+height: auto;
+width: 90%;
 margin-left: 5%;
 margin-right: 5%;
+margin-bottom: 100px;
 float: left;
 }
 
 .heading{
 width:120px;
+margin-top:45px;
+margin-left:60px;
 color: black;
-font-size: 25px;
+font-size: 38px;
 }
 
 .sectionimg{
-height: 275px;
-width: 425px;
+height: 325px;
+width: 500px;
+margin-left:60px;
 }
 
 .sectionp{
 width: 90%;
-font-size: 20px;}
+font-size: 20px;
+}
 
 .learnmore{
 background-color: purple;
