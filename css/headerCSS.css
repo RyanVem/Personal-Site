@@ -4,7 +4,10 @@
 .header{
 max-width:percentage;
 height: 120px;
+background-color: black;
+/*
 background-color: #FFFCF5;
+*/
 border: 5px solid black;
 }
 
